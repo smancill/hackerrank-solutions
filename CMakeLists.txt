@@ -28,8 +28,14 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 
 # Algorithms
+add_executable(diagonal-difference algorithms/warm-up/diagonal-difference.cpp)
 add_executable(plus-minus algorithms/warm-up/plus-minus.cpp)
 add_executable(mini-max-sum algorithms/warm-up/mini-max-sum.cpp)
 add_executable(time-conversion algorithms/warm-up/time-conversion.cpp)
 
+add_executable(counting-sort-1 algorithms/sorting/counting-sort-1.cpp)
 add_executable(find-median algorithms/sorting/find-median.cpp)
+
+add_executable(flipping-matrix algorithms/constructive/flipping-matrix.cpp)
+
+add_executable(lonely-integer algorithms/bit-manipulation/lonely-integer.cpp)
