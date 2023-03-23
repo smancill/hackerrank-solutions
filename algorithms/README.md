@@ -25,17 +25,30 @@ Solutions to [algorithms preparation](https://www.hackerrank.com/domains/algorit
 | [Counting sort 1](https://www.hackerrank.com/challenges/countingsort1) | Easy | Basic | [C++2b](./sorting/counting-sort-1.cpp) |
 | [Find the median](https://www.hackerrank.com/challenges/find-the-median) | Easy | Basic | [C++2b](./sorting/find-median.cpp) |
 
+## Greedy
+
+| Challenge | Difficulty | Skill | Solution |
+|-----------|------------|-------|----------|
+| [Grid challenge](https://www.hackerrank.com/challenges/grid-challenge) | Easy | Basic | [C++2b](./greedy/grid-challenge.cpp) |
+
 ## Constructive algorithms
 
 | Challenge | Difficulty | Skill | Solution |
 |-----------|------------|-------|----------|
 | [Flipping the matrix](https://www.hackerrank.com/challenges/flipping-the-matrix) | Medium | Basic | [C++2b](./constructive/flipping-matrix.cpp) |
+| [New Year chaos](https://www.hackerrank.com/challenges/new-year-chaos) | Medium | Basic | [C++2b](./constructive/new-year-chaos.cpp) |
 
 ## Bit manipulation
 
 | Challenge | Difficulty | Skill | Solution |
 |-----------|------------|-------|----------|
 | [Lonely integer](https://www.hackerrank.com/challenges/lonely-integer) | Easy | Basic | [C++2b](./bit-manipulation/lonely-integer.cpp) |
+
+## Recursion
+
+| Challenge | Difficulty | Skill | Solution |
+|-----------|------------|-------|----------|
+| [Recursive digit sum](https://www.hackerrank.com/challenges/recursive-digit-sum) | Medium | Basic | [C++2b](./recursion/recursive-digit-sum.cpp) |
 
 ## Game theory
 

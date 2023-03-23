@@ -28,3 +28,12 @@ Solutions to [1 week preparation kit](https://www.hackerrank.com/interview/prepa
 | [Tower breakers](https://www.hackerrank.com/challenges/one-week-preparation-kit-tower-breakers-1) | Basic | [C++2b](./day-3/tower-breakers.cpp) |
 | [Caesar cipher](https://www.hackerrank.com/challenges/one-week-preparation-kit-caesar-cipher-1) | Basic | [C++2b](./day-3/caesar-cipher.cpp) |
 | **Mock Test** | Basic | [C++2b](./day-3/palindrome-index.cpp) |
+
+## Day 4
+
+| Challenge | Skill | Solution |
+|-----------|-------|----------|
+| [Grid challenge](https://www.hackerrank.com/challenges/one-week-preparation-kit-grid-challenge) | Basic | [C++2b](./day-4/grid-challenge.cpp) |
+| [Recursive digit sum](https://www.hackerrank.com/challenges/one-week-preparation-kit-recursive-digit-sum) | Basic | [C++2b](./day-4/recursive-digit-sum.cpp) |
+| [New Year chaos](https://www.hackerrank.com/challenges/one-week-preparation-kit-new-year-chaos) | Basic | [C++2b](./day-4/new-year-chaos.cpp) |
+| **Mock Test** | Intermediate | [C++2b](./day-4/truck-tour.cpp) |

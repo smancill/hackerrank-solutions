@@ -39,8 +39,17 @@ add_executable(palindrome-index algorithms/strings/palindrome-index.cpp)
 add_executable(counting-sort-1 algorithms/sorting/counting-sort-1.cpp)
 add_executable(find-median algorithms/sorting/find-median.cpp)
 
+add_executable(grid-challenge algorithms/greedy/grid-challenge.cpp)
+
 add_executable(flipping-matrix algorithms/constructive/flipping-matrix.cpp)
+add_executable(new-year-chaos algorithms/constructive/new-year-chaos.cpp)
 
 add_executable(lonely-integer algorithms/bit-manipulation/lonely-integer.cpp)
 
+add_executable(recursive-digit-sum algorithms/recursion/recursive-digit-sum.cpp)
+
 add_executable(tower-breakers algorithms/game-theory/tower-breakers.cpp)
+
+
+# Data structures
+add_executable(truck-tour data-structures/queues/truck-tour.cpp)
