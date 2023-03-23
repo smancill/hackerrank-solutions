@@ -7,3 +7,8 @@ Source: https://github.com/smancill/hackerrank-solutions
 Files: README.md */README.md
 Copyright: © Sebastián Mancilla <smancill@smancill.dev>
 License: MIT-0
+
+# debugging solutions
+Files: */debugging/*.diff
+Copyright: © Sebastián Mancilla <smancill@smancill.dev>
+License: MIT-0

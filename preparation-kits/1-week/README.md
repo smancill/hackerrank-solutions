@@ -19,3 +19,12 @@ Solutions to [1 week preparation kit](https://www.hackerrank.com/interview/prepa
 | [Diagonal difference](https://www.hackerrank.com/challenges/one-week-preparation-kit-diagonal-difference) | Basic | [C++2b](./day-2/diagonal-difference.cpp) |
 | [Counting sort 1](https://www.hackerrank.com/challenges/one-week-preparation-kit-countingsort1) | Basic | [C++2b](./day-2/counting-sort-1.cpp) |
 | **Mock Test** | Basic | [C++2b](./day-2/flipping-matrix.cpp) |
+
+## Day 3
+
+| Challenge | Skill | Solution |
+|-----------|-------|----------|
+| [Zig zag sequence](https://www.hackerrank.com/challenges/one-week-preparation-kit-zig-zag-sequence) | Basic | [Diff (C++)](./day-3/zig-zag-sequence.diff) |
+| [Tower breakers](https://www.hackerrank.com/challenges/one-week-preparation-kit-tower-breakers-1) | Basic | [C++2b](./day-3/tower-breakers.cpp) |
+| [Caesar cipher](https://www.hackerrank.com/challenges/one-week-preparation-kit-caesar-cipher-1) | Basic | [C++2b](./day-3/caesar-cipher.cpp) |
+| **Mock Test** | Basic | [C++2b](./day-3/palindrome-index.cpp) |

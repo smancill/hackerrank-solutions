@@ -33,9 +33,14 @@ add_executable(plus-minus algorithms/warm-up/plus-minus.cpp)
 add_executable(mini-max-sum algorithms/warm-up/mini-max-sum.cpp)
 add_executable(time-conversion algorithms/warm-up/time-conversion.cpp)
 
+add_executable(caesar-cipher algorithms/strings/caesar-cipher.cpp)
+add_executable(palindrome-index algorithms/strings/palindrome-index.cpp)
+
 add_executable(counting-sort-1 algorithms/sorting/counting-sort-1.cpp)
 add_executable(find-median algorithms/sorting/find-median.cpp)
 
 add_executable(flipping-matrix algorithms/constructive/flipping-matrix.cpp)
 
 add_executable(lonely-integer algorithms/bit-manipulation/lonely-integer.cpp)
+
+add_executable(tower-breakers algorithms/game-theory/tower-breakers.cpp)
