@@ -25,3 +25,11 @@ add_compile_options(-Wall -Wextra)
 
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+
+# Algorithms
+add_executable(plus-minus algorithms/warm-up/plus-minus.cpp)
+add_executable(mini-max-sum algorithms/warm-up/mini-max-sum.cpp)
+add_executable(time-conversion algorithms/warm-up/time-conversion.cpp)
+
+add_executable(find-median algorithms/sorting/find-median.cpp)
