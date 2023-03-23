@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# SPDX-FileCopyrightText: © Sebastián Mancilla <smancill@smancill.dev>
+#
+# SPDX-License-Identifier: MIT-0
+
+cmake -D CMAKE_BUILD_TYPE="${BUILD_TYPE:-RelWithDebInfo}" -S . -B "${BUILD_DIR:-build}"

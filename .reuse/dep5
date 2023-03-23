@@ -1,0 +1,9 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: HackerRank Solutions
+Upstream-Contact: Sebastián Mancilla <smancill@smancill.dev>
+Source: https://github.com/smancill/hackerrank-solutions
+
+# misc
+Files: README.md */README.md
+Copyright: © Sebastián Mancilla <smancill@smancill.dev>
+License: MIT-0
