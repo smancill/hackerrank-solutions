@@ -31,11 +31,23 @@ Solutions to [algorithms preparation](https://www.hackerrank.com/domains/algorit
 |-----------|------------|-------|----------|
 | [Pairs](https://www.hackerrank.com/challenges/pairs) | Medium | Intermediate | [C++2b](./search/pairs.cpp) |
 
+## Graph theory
+
+| Challenge | Difficulty | Skill | Solution |
+|-----------|------------|-------|----------|
+| [Bread first search: shortest reach](https://www.hackerrank.com/challenges/bfsshortreach) | Medium | Advanced | [C++2b](./graph-theory/bfs-shortest-reach.cpp) |
+
 ## Greedy
 
 | Challenge | Difficulty | Skill | Solution |
 |-----------|------------|-------|----------|
 | [Grid challenge](https://www.hackerrank.com/challenges/grid-challenge) | Easy | Basic | [C++2b](./greedy/grid-challenge.cpp) |
+
+## Dynamic programming
+
+| Challenge | Difficulty | Skill | Solution |
+|-----------|------------|-------|----------|
+| [Lego blocks](https://www.hackerrank.com/challenges/lego-blocks) | Medium | Intermediate | [C++2b](./dynamic-programming/lego-blocks.cpp) |
 
 ## Constructive algorithms
 

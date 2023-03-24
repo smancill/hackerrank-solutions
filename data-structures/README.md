@@ -13,6 +13,7 @@ Solutions to [data structures preparation](https://www.hackerrank.com/domains/da
 | Challenge | Difficulty | Skill | Solution |
 |-----------|------------|-------|----------|
 | [Balanced brackets](https://www.hackerrank.com/challenges/balanced-brackets) | Medium | Intermediate | [C++2b](./stacks/balanced-brackets.cpp) |
+| [Simple text editor](https://www.hackerrank.com/challenges/simple-text-editor) | Medium | Intermediate | [C++2b](./stacks/simple-text-editor.cpp) |
 
 ## Queues
 
@@ -20,3 +21,9 @@ Solutions to [data structures preparation](https://www.hackerrank.com/domains/da
 |-----------|------------|-------|----------|
 | [Queue using two stacks](https://www.hackerrank.com/challenges/queue-using-two-stacks) | Medium | Intermediate | [C++2b](./queues/queue-using-two-stacks.cpp) |
 | [Truck tour](https://www.hackerrank.com/challenges/truck-tour) | Hard | Intermediate | [C++2b](./queues/truck-tour.cpp) |
+
+## Heap
+
+| Challenge | Difficulty | Skill | Solution |
+|-----------|------------|-------|----------|
+| [Jesse and cookies](https://www.hackerrank.com/challenges/jesse-and-cookies) | Easy | Intermediate | [C++2b](./heap/jesse-and-cookies.cpp) |

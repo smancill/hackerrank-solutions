@@ -46,3 +46,12 @@ Solutions to [1 week preparation kit](https://www.hackerrank.com/interview/prepa
 | [Queue using two stacks](https://www.hackerrank.com/challenges/one-week-preparation-kit-queue-using-two-stacks) | Intermediate | [C++2b](./day-5/queue-using-two-stacks.cpp) |
 | [Balanced brackets](https://www.hackerrank.com/challenges/one-week-preparation-kit-balanced-brackets) | Intermediate | [C++2b](./day-5/balanced-brackets.cpp) |
 | **Mock Test** | Intermediate | [C++2b](./day-5/pairs.cpp) |
+
+## Day 6
+
+| Challenge | Skill | Solution |
+|-----------|-------|----------|
+| [Simple text editor](https://www.hackerrank.com/challenges/one-week-preparation-kit-simple-text-editor) | Intermediate | [C++2b](./day-6/simple-text-editor.cpp) |
+| [Lego blocks](https://www.hackerrank.com/challenges/one-week-preparation-kit-lego-blocks) | Intermediate | [C++2b](./day-6/bfs-shortest-reach.cpp) |
+| [Jesse and cookies](https://www.hackerrank.com/challenges/one-week-preparation-kit-jesse-and-cookies) | Intermediate | [C++2b](./day-6/jesse-and-cookies.cpp) |
+| **Mock Test** | Advanced | [C++2b](./day-6/bfs-shortest-reach.cpp) |
