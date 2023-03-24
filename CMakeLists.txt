@@ -39,6 +39,8 @@ add_executable(palindrome-index algorithms/strings/palindrome-index.cpp)
 add_executable(counting-sort-1 algorithms/sorting/counting-sort-1.cpp)
 add_executable(find-median algorithms/sorting/find-median.cpp)
 
+add_executable(pairs algorithms/search/pairs.cpp)
+
 add_executable(grid-challenge algorithms/greedy/grid-challenge.cpp)
 
 add_executable(flipping-matrix algorithms/constructive/flipping-matrix.cpp)
@@ -52,4 +54,9 @@ add_executable(tower-breakers algorithms/game-theory/tower-breakers.cpp)
 
 
 # Data structures
+add_executable(merge-two-linked-lists data-structures/linked-lists/merge-two-linked-lists.cpp)
+
+add_executable(balanced-brackets data-structures/stacks/balanced-brackets.cpp)
+
+add_executable(queue-using-two-stacks data-structures/queues/queue-using-two-stacks.cpp)
 add_executable(truck-tour data-structures/queues/truck-tour.cpp)

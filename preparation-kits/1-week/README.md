@@ -37,3 +37,12 @@ Solutions to [1 week preparation kit](https://www.hackerrank.com/interview/prepa
 | [Recursive digit sum](https://www.hackerrank.com/challenges/one-week-preparation-kit-recursive-digit-sum) | Basic | [C++2b](./day-4/recursive-digit-sum.cpp) |
 | [New Year chaos](https://www.hackerrank.com/challenges/one-week-preparation-kit-new-year-chaos) | Basic | [C++2b](./day-4/new-year-chaos.cpp) |
 | **Mock Test** | Intermediate | [C++2b](./day-4/truck-tour.cpp) |
+
+## Day 5
+
+| Challenge | Skill | Solution |
+|-----------|-------|----------|
+| [Merge two sorted linked lists](https://www.hackerrank.com/challenges/one-week-preparation-kit-merge-two-sorted-linked-lists) | Intermediate | [C++2b](./day-5/merge-two-linked-lists.cpp) |
+| [Queue using two stacks](https://www.hackerrank.com/challenges/one-week-preparation-kit-queue-using-two-stacks) | Intermediate | [C++2b](./day-5/queue-using-two-stacks.cpp) |
+| [Balanced brackets](https://www.hackerrank.com/challenges/one-week-preparation-kit-balanced-brackets) | Intermediate | [C++2b](./day-5/balanced-brackets.cpp) |
+| **Mock Test** | Intermediate | [C++2b](./day-5/pairs.cpp) |

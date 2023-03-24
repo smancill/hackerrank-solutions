@@ -25,6 +25,12 @@ Solutions to [algorithms preparation](https://www.hackerrank.com/domains/algorit
 | [Counting sort 1](https://www.hackerrank.com/challenges/countingsort1) | Easy | Basic | [C++2b](./sorting/counting-sort-1.cpp) |
 | [Find the median](https://www.hackerrank.com/challenges/find-the-median) | Easy | Basic | [C++2b](./sorting/find-median.cpp) |
 
+## Search
+
+| Challenge | Difficulty | Skill | Solution |
+|-----------|------------|-------|----------|
+| [Pairs](https://www.hackerrank.com/challenges/pairs) | Medium | Intermediate | [C++2b](./search/pairs.cpp) |
+
 ## Greedy
 
 | Challenge | Difficulty | Skill | Solution |
