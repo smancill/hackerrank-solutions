@@ -1,0 +1,1 @@
+../../../algorithms/strings/pangrams.cpp

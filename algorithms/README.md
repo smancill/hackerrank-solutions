@@ -11,11 +11,18 @@ Solutions to [algorithms preparation](https://www.hackerrank.com/domains/algorit
 | [Mini-max sum](https://www.hackerrank.com/challenges/mini-max-sum) | Easy | Basic | [C++2b](./warm-up/mini-max-sum.cpp) |
 | [Time conversion](https://www.hackerrank.com/challenges/time-conversion) | Easy | Basic | [C++2b](./warm-up/time-conversion.cpp) |
 
+## Implementation
+
+| Challenge | Difficulty | Skill | Solution |
+|-----------|------------|-------|----------|
+| [Subarray division](https://www.hackerrank.com/challenges/the-birthday-bar) | Easy | Basic | [C++2b](./implementation/subarray-division.cpp) |
+
 ## Strings
 
 | Challenge | Difficulty | Skill | Solution |
 |-----------|------------|-------|----------|
 | [Caesar cipher](https://www.hackerrank.com/challenges/caesar-cipher-1) | Easy | Basic | [C++2b](./strings/caesar-cipher.cpp) |
+| [Pangrams](https://www.hackerrank.com/challenges/pangrams) | Easy | Basic | [C++2b](./strings/pangrams.cpp) |
 | [Palindrome index](https://www.hackerrank.com/challenges/palindrome-index) | Easy | Basic | [C++2b](./strings/palindrome-index.cpp) |
 
 ## Sorting
@@ -42,6 +49,7 @@ Solutions to [algorithms preparation](https://www.hackerrank.com/domains/algorit
 | Challenge | Difficulty | Skill | Solution |
 |-----------|------------|-------|----------|
 | [Grid challenge](https://www.hackerrank.com/challenges/grid-challenge) | Easy | Basic | [C++2b](./greedy/grid-challenge.cpp) |
+| [Permuting two arrays](https://www.hackerrank.com/challenges/two-arrays) | Easy | Basic | [C++2b](./greedy/permuting-two-arrays.cpp) |
 
 ## Dynamic programming
 
@@ -61,6 +69,7 @@ Solutions to [algorithms preparation](https://www.hackerrank.com/domains/algorit
 | Challenge | Difficulty | Skill | Solution |
 |-----------|------------|-------|----------|
 | [Lonely integer](https://www.hackerrank.com/challenges/lonely-integer) | Easy | Basic | [C++2b](./bit-manipulation/lonely-integer.cpp) |
+| [Flipping bits](https://www.hackerrank.com/challenges/flipping-bits) | Easy | Basic | [C++2b](./bit-manipulation/flipping-bits.cpp) |
 
 ## Recursion
 
@@ -78,4 +87,5 @@ Solutions to [algorithms preparation](https://www.hackerrank.com/domains/algorit
 
 | Challenge | Difficulty | Skill | Solution |
 |-----------|------------|-------|----------|
+| [XOR strings](https://www.hackerrank.com/challenges/strings-xor) | Easy | Basic | [Diff (C++)](./debugging/xor-strings.diff) |
 | [Zig zag sequence](https://www.hackerrank.com/challenges/zig-zag-sequence) | Medium | Basic | [Diff (C++)](./debugging/zig-zag-sequence.diff) |

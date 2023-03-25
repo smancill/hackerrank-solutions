@@ -2,6 +2,12 @@
 
 Solutions to [data structures preparation](https://www.hackerrank.com/domains/data-structures) challenges.
 
+## Arrays
+
+| Challenge | Difficulty | Skill | Solution |
+|-----------|------------|-------|----------|
+| [Sparse arrays](https://www.hackerrank.com/challenges/sparse-arrays) | Medium | Basic | [C++2b](./arrays/sparse-arrays.cpp) |
+
 ## Linked lists
 
 | Challenge | Difficulty | Skill | Solution |

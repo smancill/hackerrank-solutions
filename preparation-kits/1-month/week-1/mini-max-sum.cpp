@@ -1,0 +1,1 @@
+../../../algorithms/warm-up/mini-max-sum.cpp
