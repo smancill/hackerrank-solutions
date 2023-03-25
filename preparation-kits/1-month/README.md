@@ -19,3 +19,22 @@ Solutions to [1 month preparation kit](https://www.hackerrank.com/interview/prep
 | [Subarray division 1](https://www.hackerrank.com/challenges/one-month-preparation-kit-the-birthday-bar) | Basic | [C++2b](./week-1/subarray-division.cpp) |
 | [XOR strings 2](https://www.hackerrank.com/challenges/one-month-preparation-kit-strings-xor) | Basic | [C++2b](./week-1/xor-strings.diff) |
 | **Mock Test** | Basic | [C++2b](./week-1/find-median.cpp) |
+
+## Week 2
+
+| Challenge | Skill | Solution |
+|-----------|-------|----------|
+| [Sales by match](https://www.hackerrank.com/challenges/one-month-preparation-kit-sock-merchant) | Basic | [C++2b](./week-2/sales-by-match.cpp) |
+| [Zig zag sequence](https://www.hackerrank.com/challenges/one-month-preparation-kit-zig-zag-sequence) | Basic | [Diff (C++)](./week-2/zig-zag-sequence.diff) |
+| [Drawing book](https://www.hackerrank.com/challenges/one-month-preparation-kit-drawing-book) | Basic | [C++2b](./week-2/drawing-book.cpp) |
+| [Tower breakers](https://www.hackerrank.com/challenges/one-month-preparation-kit-tower-breakers-1) | Basic | [C++2b](./week-2/tower-breakers.cpp) |
+| [Caesar cipher](https://www.hackerrank.com/challenges/one-month-preparation-kit-caesar-cipher-1) | Basic | [C++2b](./week-2/caesar-cipher.cpp) |
+| [Max min](https://www.hackerrank.com/challenges/one-month-preparation-kit-angry-children) | Basic | [C++2b](./week-2/max-min.cpp) |
+| [Dynamic array](https://www.hackerrank.com/challenges/one-month-preparation-kit-dynamic-array) | Basic | [C++2b](./week-2/dynamic-array.cpp) |
+| [Grid challenge](https://www.hackerrank.com/challenges/one-month-preparation-kit-grid-challenge) | Basic | [C++2b](./week-2/grid-challenge.cpp) |
+| [Prime dates](https://www.hackerrank.com/challenges/one-month-preparation-kit-prime-date) | Basic | [C++2b](./week-2/prime-dates.diff) |
+| [Sherlock and array](https://www.hackerrank.com/challenges/one-month-preparation-kit-sherlock-and-array) | Basic | [C++2b](./week-2/sherlock-and-array.cpp) |
+| [Recursive digit sum](https://www.hackerrank.com/challenges/one-month-preparation-kit-recursive-digit-sum) | Basic | [C++2b](./week-2/recursive-digit-sum.cpp) |
+| [Counter game](https://www.hackerrank.com/challenges/one-month-preparation-kit-counter-game) | Basic | [C++2b](./week-2/counter-game.cpp) |
+| [Sum vs XOR](https://www.hackerrank.com/challenges/one-month-preparation-kit-sum-vs-xor) | Basic | [C++2b](./week-2/sum-vs-xor.cpp) |
+| **Mock Test** | Basic | [C++2b](./week-2/palindrome-index.cpp) |

@@ -1,0 +1,1 @@
+../../../algorithms/greedy/max-min.cpp

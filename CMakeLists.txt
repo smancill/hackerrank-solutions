@@ -39,6 +39,8 @@ add_executable(mini-max-sum algorithms/warm-up/mini-max-sum.cpp)
 add_executable(time-conversion algorithms/warm-up/time-conversion.cpp)
 
 add_executable(subarray-division algorithms/implementation/subarray-division.cpp)
+add_executable(sales-by-match algorithms/implementation/sales-by-match.cpp)
+add_executable(drawing-book algorithms/implementation/drawing-book.cpp)
 
 add_executable(caesar-cipher algorithms/strings/caesar-cipher.cpp)
 add_executable(pangrams algorithms/strings/pangrams.cpp)
@@ -48,10 +50,12 @@ add_executable(counting-sort-1 algorithms/sorting/counting-sort-1.cpp)
 add_executable(find-median algorithms/sorting/find-median.cpp)
 
 add_executable(pairs algorithms/search/pairs.cpp)
+add_executable(sherlock-and-array algorithms/search/sherlock-and-array.cpp)
 
 add_executable(bfs-shortest-reach algorithms/graph-theory/bfs-shortest-reach.cpp)
 
 add_executable(grid-challenge algorithms/greedy/grid-challenge.cpp)
+add_executable(max-min algorithms/greedy/max-min.cpp)
 add_executable(permuting-two-arrays algorithms/greedy/permuting-two-arrays.cpp)
 
 add_executable(lego-blocks algorithms/dynamic-programming/lego-blocks.cpp)
@@ -60,6 +64,8 @@ add_executable(flipping-matrix algorithms/constructive/flipping-matrix.cpp)
 add_executable(new-year-chaos algorithms/constructive/new-year-chaos.cpp)
 
 add_executable(lonely-integer algorithms/bit-manipulation/lonely-integer.cpp)
+add_executable(counter-game algorithms/bit-manipulation/counter-game.cpp)
+add_executable(sum-vs-xor algorithms/bit-manipulation/sum-vs-xor.cpp)
 add_executable(flipping-bits algorithms/bit-manipulation/flipping-bits.cpp)
 
 add_executable(recursive-digit-sum algorithms/recursion/recursive-digit-sum.cpp)
@@ -68,6 +74,7 @@ add_executable(tower-breakers algorithms/game-theory/tower-breakers.cpp)
 
 
 # Data structures
+add_executable(dynamic-array data-structures/arrays/dynamic-array.cpp)
 add_executable(sparse-arrays data-structures/arrays/sparse-arrays.cpp)
 
 add_executable(merge-two-linked-lists data-structures/linked-lists/merge-two-linked-lists.cpp)

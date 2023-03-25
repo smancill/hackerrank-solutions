@@ -6,6 +6,7 @@ Solutions to [data structures preparation](https://www.hackerrank.com/domains/da
 
 | Challenge | Difficulty | Skill | Solution |
 |-----------|------------|-------|----------|
+| [Dynamic array](https://www.hackerrank.com/challenges/dynamic-array) | Easy | Basic | [C++2b](./arrays/dynamic-array.cpp) |
 | [Sparse arrays](https://www.hackerrank.com/challenges/sparse-arrays) | Medium | Basic | [C++2b](./arrays/sparse-arrays.cpp) |
 
 ## Linked lists

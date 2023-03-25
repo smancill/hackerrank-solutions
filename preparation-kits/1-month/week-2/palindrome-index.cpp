@@ -1,0 +1,1 @@
+../../../algorithms/strings/palindrome-index.cpp

@@ -16,6 +16,8 @@ Solutions to [algorithms preparation](https://www.hackerrank.com/domains/algorit
 | Challenge | Difficulty | Skill | Solution |
 |-----------|------------|-------|----------|
 | [Subarray division](https://www.hackerrank.com/challenges/the-birthday-bar) | Easy | Basic | [C++2b](./implementation/subarray-division.cpp) |
+| [Sales by match](https://www.hackerrank.com/challenges/sock-merchant) | Easy | Basic | [C++2b](./implementation/sales-by-match.cpp) |
+| [Drawing book](https://www.hackerrank.com/challenges/drawing-book) | Easy | Basic | [C++2b](./implementation/drawing-book.cpp) |
 
 ## Strings
 
@@ -37,6 +39,7 @@ Solutions to [algorithms preparation](https://www.hackerrank.com/domains/algorit
 | Challenge | Difficulty | Skill | Solution |
 |-----------|------------|-------|----------|
 | [Pairs](https://www.hackerrank.com/challenges/pairs) | Medium | Intermediate | [C++2b](./search/pairs.cpp) |
+| [Sherlock and array](https://www.hackerrank.com/challenges/sherlock-and-array) | Easy | Basic | [C++2b](./search/sherlock-and-array.cpp) |
 
 ## Graph theory
 
@@ -49,6 +52,7 @@ Solutions to [algorithms preparation](https://www.hackerrank.com/domains/algorit
 | Challenge | Difficulty | Skill | Solution |
 |-----------|------------|-------|----------|
 | [Grid challenge](https://www.hackerrank.com/challenges/grid-challenge) | Easy | Basic | [C++2b](./greedy/grid-challenge.cpp) |
+| [Max min](https://www.hackerrank.com/challenges/angry-children) | Medium | Basic | [C++2b](./greedy/max-min.cpp) |
 | [Permuting two arrays](https://www.hackerrank.com/challenges/two-arrays) | Easy | Basic | [C++2b](./greedy/permuting-two-arrays.cpp) |
 
 ## Dynamic programming
@@ -69,6 +73,8 @@ Solutions to [algorithms preparation](https://www.hackerrank.com/domains/algorit
 | Challenge | Difficulty | Skill | Solution |
 |-----------|------------|-------|----------|
 | [Lonely integer](https://www.hackerrank.com/challenges/lonely-integer) | Easy | Basic | [C++2b](./bit-manipulation/lonely-integer.cpp) |
+| [Counter game](https://www.hackerrank.com/challenges/counter-game) | Medium | Basic | [C++2b](./bit-manipulation/counter-game.cpp) |
+| [Sum vs XOR](https://www.hackerrank.com/challenges/sum-vs-xor) | Easy | Basic | [C++2b](./bit-manipulation/sum-vs-xor.cpp) |
 | [Flipping bits](https://www.hackerrank.com/challenges/flipping-bits) | Easy | Basic | [C++2b](./bit-manipulation/flipping-bits.cpp) |
 
 ## Recursion
@@ -87,5 +93,6 @@ Solutions to [algorithms preparation](https://www.hackerrank.com/domains/algorit
 
 | Challenge | Difficulty | Skill | Solution |
 |-----------|------------|-------|----------|
+| [Prime dates](https://www.hackerrank.com/challenges/prime-date) | Medium | Basic | [Diff (C++)](./debugging/prime-dates.diff) |
 | [XOR strings](https://www.hackerrank.com/challenges/strings-xor) | Easy | Basic | [Diff (C++)](./debugging/xor-strings.diff) |
 | [Zig zag sequence](https://www.hackerrank.com/challenges/zig-zag-sequence) | Medium | Basic | [Diff (C++)](./debugging/zig-zag-sequence.diff) |
