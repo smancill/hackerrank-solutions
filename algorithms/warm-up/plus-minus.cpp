@@ -47,6 +47,7 @@ auto main() -> int
     std::cin >> n;
 
     auto numbers = std::vector<int>{};
+    numbers.reserve(n);
     std::copy_n(std::istream_iterator<int>{std::cin}, n, std::back_inserter(numbers));
 
     auto ratios = plus_minus(numbers);

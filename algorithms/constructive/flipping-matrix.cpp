@@ -43,6 +43,7 @@ auto main() -> int
 
         auto matrix = Matrix(2 * n);
         for (auto& row : matrix) {
+            row.reserve(2 * n);
             std::copy_n(std::istream_iterator<int>{std::cin}, 2 * n,
                         std::back_inserter(row));
         }
