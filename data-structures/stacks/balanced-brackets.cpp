@@ -39,7 +39,7 @@ auto main() -> int
     int n;
     std::cin >> n;
 
-    while (n-- > 0) {
+    for (auto i = 0; i < n; ++i) {
         std::string s;
         std::cin >> s;
 

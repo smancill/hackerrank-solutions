@@ -114,7 +114,7 @@ auto main() -> int
     int t;
     std::cin >> t;
 
-    while (t-- > 0) {
+    for (auto i = 0; i < t; ++i) {
         auto list1 = List<int>{};
         auto list2 = List<int>{};
 

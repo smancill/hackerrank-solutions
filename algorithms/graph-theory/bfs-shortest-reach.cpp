@@ -26,7 +26,7 @@ auto make_graph(int nodes, const Edges& edges) -> Graph
 
 auto min_dist(int nodes, const Edges& edges, int start) -> std::vector<int>
 {
-    constexpr auto edge_length = 6;
+    constexpr auto edge_weight = 6;
 
     auto graph = make_graph(nodes, edges);
 
@@ -43,7 +43,7 @@ auto min_dist(int nodes, const Edges& edges, int start) -> std::vector<int>
         queue.pop();
         for (auto node : graph[current]) {
             if (!visited.contains(node)) {
-                dist[node] = dist[current] + edge_length;
+                dist[node] = dist[current] + edge_weight;
                 queue.push(node);
                 visited.insert(node);
             }
@@ -73,9 +73,12 @@ auto main() -> int
     int q;
     std::cin >> q;
 
-    while (q-- > 0) {
-        int n, m;
-        std::cin >> n >> m;
+    for (auto i = 0; i < q; ++i) {
+        int n;
+        std::cin >> n;
+
+        int m;
+        std::cin >> m;
 
         auto edges = read_edges(m);
 

@@ -37,7 +37,7 @@ auto main() -> int
     int q;
     std::cin >> q;
 
-    while (q-- > 0) {
+    for (auto i = 0; i < q; ++i) {
         int n;
         std::cin >> n;
 
@@ -49,7 +49,7 @@ auto main() -> int
 
         auto max = flipping_matrix(matrix);
 
-        std::cout << max << std::endl;
+        std::cout << max << '\n';
     }
 
     return 0;

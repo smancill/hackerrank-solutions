@@ -30,7 +30,7 @@ auto main() -> int
 
     auto freq = counting_sort(numbers);
 
-    for (auto f: freq) {
+    for (auto f : freq) {
         std::cout << f << ' ';
     }
     std::cout << std::endl;

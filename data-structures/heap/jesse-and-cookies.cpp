@@ -37,7 +37,8 @@ auto mix_cookies(int k, std::vector<int> cookies) -> int
 
 auto main() -> int
 {
-    int n, k;
+    int n;
+    int k;
     std::cin >> n >> k;
 
     auto cookies = std::vector<int>{};

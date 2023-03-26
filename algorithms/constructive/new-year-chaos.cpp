@@ -41,7 +41,7 @@ auto main() -> int
     int t;
     std::cin >> t;
 
-    while (t-- > 0) {
+    for (auto i = 0; i < t; ++i) {
         int n;
         std::cin >> n;
 

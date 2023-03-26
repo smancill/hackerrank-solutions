@@ -15,13 +15,13 @@ auto grid_challenge(std::vector<std::string> grid) -> std::string
     const auto m = ssize(grid[0]);
 
     // rows
-    for (auto i = 0z; i < n; i++) {
+    for (auto i = 0z; i < n; ++i) {
         std::ranges::sort(grid[i]);
     }
 
     // columns
-    for (auto j = 0z; j < m; j++) {
-        for (auto i = 0z; i < n - 1; i++) {
+    for (auto j = 0z; j < m; ++j) {
+        for (auto i = 0z; i < n - 1; ++i) {
             if (grid[i+1][j] < grid[i][j]) {
                 return "NO";
             }
@@ -37,7 +37,7 @@ auto main() -> int
     int t;
     std::cin >> t;
 
-    while (t-- > 0) {
+    for (auto i = 0; i < t; ++i) {
         int n;
         std::cin >> n;
 

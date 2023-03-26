@@ -73,8 +73,9 @@ auto main() -> int
     int t;
     std::cin >> t;
 
-    while (t-- > 0) {
-        int n, m;
+    for (auto i = 0; i < t; ++i) {
+        int n;
+        int m;
         std::cin >> n >> m;
 
         auto solid = lego_blocks(n, m);
