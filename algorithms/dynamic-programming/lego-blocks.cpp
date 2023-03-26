@@ -70,17 +70,17 @@ auto lego_blocks(int n, int m) -> long
 
 auto main() -> int
 {
-   int t;
-   std::cin >> t;
+    int t;
+    std::cin >> t;
 
-   while (t-- > 0) {
-       int n, m;
-       std::cin >> n >> m;
+    while (t-- > 0) {
+        int n, m;
+        std::cin >> n >> m;
 
-       auto solid = lego_blocks(n, m);
+        auto solid = lego_blocks(n, m);
 
-       std::cout << solid << '\n';
-   }
+        std::cout << solid << '\n';
+    }
 
-   return 0;
+    return 0;
 }
