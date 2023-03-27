@@ -44,7 +44,7 @@ auto main() -> int
     auto cookies = std::vector<int>{};
     std::copy_n(std::istream_iterator<int>{std::cin}, n, std::back_inserter(cookies));
 
-    auto c = mix_cookies(k, cookies);
+    auto c = mix_cookies(k, std::move(cookies));
 
     std::cout << c << std::endl;
 

@@ -46,7 +46,7 @@ auto main() -> int
         std::copy_n(std::istream_iterator<std::string>{std::cin}, n,
                     std::back_inserter(grid));
 
-        auto result = grid_challenge(grid);
+        auto result = grid_challenge(std::move(grid));
 
         std::cout << result << std::endl;
     }

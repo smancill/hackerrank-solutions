@@ -30,7 +30,7 @@ auto main() -> int
     int k;
     std::cin >> k;
 
-    auto c = caesar_cipher(s, k);
+    auto c = caesar_cipher(std::move(s), k);
 
     std::cout << c << std::endl;
 
