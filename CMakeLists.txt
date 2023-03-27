@@ -21,6 +21,11 @@ set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
+include(CheckTypeSize)
+check_type_size(long SIZEOF_LONG BUILTIN_TYPES_ONLY LANGUAGE CXX)
+if(SIZEOF_LONG LESS 8)
+  message(FATAL_ERROR "LP64 data model is required")
+endif()
 add_compile_options(-Wall -Wextra)
 
 
