@@ -14,8 +14,8 @@
 auto mini_max_sum(std::span<const int> numbers) -> std::pair<long, long>
 {
     auto sum = 0L;
-    auto min = std::numeric_limits<long>::max();
-    auto max = std::numeric_limits<long>::min();
+    auto min = std::numeric_limits<int>::max();
+    auto max = std::numeric_limits<int>::min();
     for (auto x : numbers) {
         sum += x;
         if (x < min) {

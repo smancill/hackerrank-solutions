@@ -25,8 +25,7 @@ public:
 
     auto undo() -> void
     {
-        auto& f = undo_.top();
-        f();
+        std::invoke(undo_.top());
         undo_.pop();
     }
 
