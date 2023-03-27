@@ -46,7 +46,7 @@ auto solid_walls(const std::vector<long>& walls) -> std::vector<long>
     auto solid = std::vector<long>{0, 1};
     solid.reserve(size(walls));
 
-    for (auto i = 2z; i <= ssize(walls); ++i) {
+    for (auto i = 2z; i < ssize(walls); ++i) {
         auto invalid = 0L;
         for (auto j = 1z; j < i; ++j) {
             invalid += solid[j] * walls[i-j];
