@@ -2,21 +2,38 @@
 //
 // SPDX-License-Identifier: MIT-0
 
+#include <algorithm>
 #include <iostream>
+#include <iterator>
 #include <queue>
 #include <set>
 #include <vector>
 
-using Edges = std::vector<std::vector<int>>;
+
+struct Edge {
+    int u;
+    int v;
+
+    constexpr static auto weight = 6;
+};
+
+
+auto operator>>(std::istream& is, Edge& e) -> std::istream&
+{
+    return is >> e.u >> e.v;
+}
+
+
+using Edges = std::vector<Edge>;
 using Graph = std::vector<std::set<int>>;
 
 
 auto make_graph(int nodes, const Edges& edges) -> Graph
 {
     auto graph = Graph(nodes);
-    for (const auto& e : edges) {
-        auto u = e[0] - 1;
-        auto v = e[1] - 1;
+    for (auto [u, v] : edges) {
+        u -= 1;
+        v -= 1;
         graph[u].insert(v);
         graph[v].insert(u);
     }
@@ -26,8 +43,6 @@ auto make_graph(int nodes, const Edges& edges) -> Graph
 
 auto min_dist(int nodes, const Edges& edges, int start) -> std::vector<int>
 {
-    constexpr auto edge_length = 6;
-
     auto graph = make_graph(nodes, edges);
 
     auto dist = std::vector<int>(nodes, -1);
@@ -43,7 +58,7 @@ auto min_dist(int nodes, const Edges& edges, int start) -> std::vector<int>
         queue.pop();
         for (auto node : graph[current]) {
             if (!visited.contains(node)) {
-                dist[node] = dist[current] + edge_length;
+                dist[node] = dist[current] + Edge::weight;
                 queue.push(node);
                 visited.insert(node);
             }
@@ -55,29 +70,22 @@ auto min_dist(int nodes, const Edges& edges, int start) -> std::vector<int>
 }
 
 
-auto read_edges(int m) -> Edges
-{
-    auto edges = Edges{};
-    edges.reserve(m);
-    for (int i = 0; i < m; ++i) {
-        int u, v;
-        std::cin >> u >> v;
-        edges.push_back({u, v});
-    }
-    return edges;
-}
-
-
 auto main() -> int
 {
     int q;
     std::cin >> q;
 
-    while (q-- > 0) {
-        int n, m;
-        std::cin >> n >> m;
+    for (auto i = 0; i < q; ++i) {
+        int n;
+        std::cin >> n;
 
-        auto edges = read_edges(m);
+        int m;
+        std::cin >> m;
+
+        auto edges = Edges{};
+        edges.reserve(m);
+        std::copy_n(std::istream_iterator<Edge>{std::cin}, m,
+                    std::back_inserter(edges));
 
         int s;
         std::cin >> s;

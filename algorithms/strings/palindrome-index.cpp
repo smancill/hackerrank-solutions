@@ -57,7 +57,7 @@ auto main() -> int
     int q;
     std::cin >> q;
 
-    while (q-- > 0) {
+    for (auto i = 0; i < q; ++i) {
         std::string s;
         std::cin >> s;
 

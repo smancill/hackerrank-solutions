@@ -41,7 +41,7 @@ auto main() -> int
     int t;
     std::cin >> t;
 
-    while (t-- > 0) {
+    for (auto i = 0; i < t; ++i) {
         int n;
         std::cin >> n;
 
@@ -49,7 +49,7 @@ auto main() -> int
         queue.reserve(n);
         std::copy_n(std::istream_iterator<int>{std::cin}, n, std::back_inserter(queue));
 
-        auto result = minimum_bribes(queue);
+        auto result = minimum_bribes(std::move(queue));
         if (result) {
             std::cout << *result << '\n';
         } else {

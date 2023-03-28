@@ -11,8 +11,9 @@
 
 auto is_balanced(std::string_view s) -> std::string
 {
+    const auto m = std::map<char, char>{{'(', ')'}, {'{', '}'}, {'[', ']'}};
+
     auto b = std::stack<char>();
-    auto m = std::map<char, char>{{'(', ')'}, {'{', '}'}, {'[', ']'}};
     for (auto c : s) {
         if (m.contains(c)) {
             b.push(c);
@@ -21,7 +22,7 @@ auto is_balanced(std::string_view s) -> std::string
                 return "NO";
             }
             auto o = b.top();
-            if (m[o] != c) {
+            if (m.at(o) != c) {
                 return "NO";
             }
             b.pop();
@@ -39,7 +40,7 @@ auto main() -> int
     int n;
     std::cin >> n;
 
-    while (n-- > 0) {
+    for (auto i = 0; i < n; ++i) {
         std::string s;
         std::cin >> s;
 

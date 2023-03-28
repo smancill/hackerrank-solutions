@@ -12,6 +12,7 @@ auto time_conversion(const std::string& s) -> std::string
     auto r = std::regex(R"((\d\d)(:\d\d:\d\d)([AP]M))");
     auto m = std::smatch{};
     std::regex_match(s, m, r);
+
     auto h = m.str(1);
     if (m.str(3) == "AM") {
         if (h == "12") {
@@ -23,6 +24,7 @@ auto time_conversion(const std::string& s) -> std::string
             h = std::to_string(i + 12);
         }
     }
+
     return h + m.str(2);
 }
 

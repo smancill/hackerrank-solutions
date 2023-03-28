@@ -25,8 +25,7 @@ public:
 
     auto undo() -> void
     {
-        auto& f = undo_.top();
-        f();
+        std::invoke(undo_.top());
         undo_.pop();
     }
 
@@ -62,7 +61,7 @@ auto main() -> int
 
     auto e = TextEditor{};
 
-    while (q-- > 0) {
+    for (auto i = 0; i < q; ++i) {
         int op;
         std::cin >> op;
 

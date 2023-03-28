@@ -37,19 +37,20 @@ auto main() -> int
     int q;
     std::cin >> q;
 
-    while (q-- > 0) {
+    for (auto i = 0; i < q; ++i) {
         int n;
         std::cin >> n;
 
         auto matrix = Matrix(2 * n);
         for (auto& row : matrix) {
+            row.reserve(2 * n);
             std::copy_n(std::istream_iterator<int>{std::cin}, 2 * n,
                         std::back_inserter(row));
         }
 
         auto max = flipping_matrix(matrix);
 
-        std::cout << max << std::endl;
+        std::cout << max << '\n';
     }
 
     return 0;
