@@ -55,3 +55,11 @@ Solutions to [1 week preparation kit](https://www.hackerrank.com/interview/prepa
 | [Lego blocks](https://www.hackerrank.com/challenges/one-week-preparation-kit-lego-blocks) | Intermediate | [C++2b](./day-6/bfs-shortest-reach.cpp) |
 | [Jesse and cookies](https://www.hackerrank.com/challenges/one-week-preparation-kit-jesse-and-cookies) | Intermediate | [C++2b](./day-6/jesse-and-cookies.cpp) |
 | **Mock Test** | Advanced | [C++2b](./day-6/bfs-shortest-reach.cpp) |
+
+## Day 7
+
+| Challenge | Skill | Solution |
+|-----------|-------|----------|
+| [Tree: preorder traversal](https://www.hackerrank.com/challenges/one-week-preparation-kit-tree-preorder-traversal) | Advanced | [C++2b](./day-7/tree-preorder-traversal.cpp) |
+| [Tree: Huffman decoding](https://www.hackerrank.com/challenges/one-week-preparation-kit-tree-huffman-decoding) | Advanced | [C++2b](./day-7/tree-huffman-decoding.cpp) |
+| [No prefix set](https://www.hackerrank.com/challenges/one-week-preparation-kit-no-prefix-set) | Advanced | [C++2b](./day-7/no-prefix-set.cpp) |

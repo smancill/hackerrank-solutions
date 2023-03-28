@@ -8,6 +8,13 @@ Solutions to [data structures preparation](https://www.hackerrank.com/domains/da
 |-----------|------------|-------|----------|
 | [Merge two sorted linked lists](https://www.hackerrank.com/challenges/merge-two-sorted-linked-lists) | Easy | Intermediate | [C++2b](./linked-lists/merge-two-linked-lists.cpp) |
 
+## Trees
+
+| Challenge | Difficulty | Skill | Solution |
+|-----------|------------|-------|----------|
+| [Tree: preorder traversal](https://www.hackerrank.com/challenges/tree-preorder-traversal) | Easy | Intermediate | [C++2b](./trees/tree-preorder-traversal.cpp) |
+| [Tree: Huffman decoding](https://www.hackerrank.com/challenges/tree-huffman-decoding) | Medium | Intermediate | [C++2b](./trees/tree-huffman-decoding.cpp) |
+
 ## Stacks
 
 | Challenge | Difficulty | Skill | Solution |
@@ -27,3 +34,9 @@ Solutions to [data structures preparation](https://www.hackerrank.com/domains/da
 | Challenge | Difficulty | Skill | Solution |
 |-----------|------------|-------|----------|
 | [Jesse and cookies](https://www.hackerrank.com/challenges/jesse-and-cookies) | Easy | Intermediate | [C++2b](./heap/jesse-and-cookies.cpp) |
+
+## Trie
+
+| Challenge | Difficulty | Skill | Solution |
+|-----------|------------|-------|----------|
+| [No prefix set](https://www.hackerrank.com/challenges/no-prefix-set) | Hard | Advanced | [C++2b](./trie/no-prefix-set.cpp) |

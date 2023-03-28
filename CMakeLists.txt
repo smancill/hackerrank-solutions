@@ -60,6 +60,9 @@ add_executable(tower-breakers algorithms/game-theory/tower-breakers.cpp)
 # Data structures
 add_executable(merge-two-linked-lists data-structures/linked-lists/merge-two-linked-lists.cpp)
 
+add_executable(tree-preorder-traversal data-structures/trees/tree-preorder-traversal.cpp)
+add_executable(tree-huffman-decoding data-structures/trees/tree-huffman-decoding.cpp)
+
 add_executable(balanced-brackets data-structures/stacks/balanced-brackets.cpp)
 add_executable(simple-text-editor data-structures/stacks/simple-text-editor.cpp)
 
@@ -67,3 +70,5 @@ add_executable(queue-using-two-stacks data-structures/queues/queue-using-two-sta
 add_executable(truck-tour data-structures/queues/truck-tour.cpp)
 
 add_executable(jesse-and-cookies data-structures/heap/jesse-and-cookies.cpp)
+
+add_executable(no-prefix-set data-structures/trie/no-prefix-set.cpp)
